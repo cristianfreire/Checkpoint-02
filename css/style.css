@@ -1,0 +1,18 @@
+.container.banner {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://picsum.photos/1320/827");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+h2 {
+  height: 100px;
+  font-size: 3rem !important;
+  font-weight: bold !important;
+}
+
+.redes_sociais {
+  gap: 10px;
+}

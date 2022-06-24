@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
@@ -13,7 +14,7 @@
 
 <body>
     <header>
-        <div class="container">
+        <div>
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
                     <img src="https://picsum.photos/50" alt="" />
@@ -42,24 +43,113 @@
         </div>
     </header>
 
+    <main class="container">
+        <section id="banner">
+            <div class="container banner d-flex flex-column justify-content-center rounded ">
+                <h1>TITULO</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, odit quos. Cumque perspiciatis
+                    illo, reiciendis quam tempora ea dolorum. Ab quisquam explicabo rerum temporibus culpa velit, autem
+                    qui.
+                    Enim, aliquid?</p>
+                <button type="button" class="btn btn-outline-secondary">Explorar</button>
+            </div>
+        </section>
+
+
+        <section id="card">
+            <h2 class="d-flex justify-content-center align-items-center ">CARDS</h2>
+
+            <div class="cards mb-4">
+                <div class="card">
+                    <img src="https://picsum.photos/320" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cards mb-4">
+                <div class="card">
+                    <img src="https://picsum.photos/320" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cards mb-4">
+                <div class="card">
+                    <img src="https://picsum.photos/320" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cards mb-4">
+                <div class="card">
+                    <img src="https://picsum.photos/320" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cards mb-4">
+                <div class="card">
+                    <img src="https://picsum.photos/320" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cards mb-4">
+                <div class="card">
+                    <img src="https://picsum.photos/320" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+    </main>
+
     <!-- Footer -->
-    <footer class="bg-dark text-center text-white">
-        <!-- Grid container -->
-        <div class="container p-4">
-            <!-- Section: Social media -->
-            <section class="mb-4"></section>
-            <!-- Section: Social media -->
-
-            <!-- Section: Links -->
-            <section class="">
-                <!--Grid row-->
-                <div class="row">
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+    <footer class="bg-dark text-center text-white ">
+        <div class="container d-flex flex-column justify-content-around align-items-center">
+            <!-- Grid container -->
+            <div class="container p-3 justify-content-center">
+                <!-- Section: Links -->
+                <section class="">
+                    <!--Grid row-->
+                    <div class="container">
+                        <!--Grid column-->
                         <img src="https://picsum.photos/80" class="rounded-circle" alt="" />
-                        <h5 class="text-uppercase">Cristian</h5>
+                        <h5 class="text-uppercase p-2">Cristian</h5>
 
-                        <ul class="list-unstyled d-flex justify-content-center ">
+                        <ul class="list-unstyled d-flex justify-content-center redes_sociais ">
                             <li>
                                 <img src="./img/linkedin.svg" alt="">
                             </li>
@@ -68,18 +158,73 @@
                             </li>
 
                         </ul>
+                        <!--Grid column-->
+
+
                     </div>
-                    <!--Grid column-->
+                    <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+            </div>
+            <div class="container p-3 justify-content-center">
+                <!-- Section: Links -->
+                <section class="">
+                    <!--Grid row-->
+                    <div class="container">
+                        <!--Grid column-->
+                        <img src="https://picsum.photos/80" class="rounded-circle" alt="" />
+                        <h5 class="text-uppercase">Cristian</h5>
+
+                        <ul class="list-unstyled d-flex justify-content-center redes_sociais ">
+                            <li>
+                                <img src="./img/linkedin.svg" alt="">
+                            </li>
+                            <li>
+                                <img src="./img/github.svg" alt="">
+                            </li>
+
+                        </ul>
+                        <!--Grid column-->
 
 
 
 
-                </div>
-                <!--Grid row-->
-            </section>
-            <!-- Section: Links -->
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+            </div>
+            <div class="container p-3 justify-content-center">
+                <!-- Section: Links -->
+                <section class="">
+                    <!--Grid row-->
+                    <div class="container">
+                        <!--Grid column-->
+                        <img src="https://picsum.photos/80" class="rounded-circle" alt="" />
+                        <h5 class="text-uppercase">Cristian</h5>
+
+                        <ul class="list-unstyled d-flex justify-content-center redes_sociais ">
+                            <li>
+                                <img src="./img/linkedin.svg" alt="">
+                            </li>
+                            <li>
+                                <img src="./img/github.svg" alt="">
+                            </li>
+
+                        </ul>
+                        <!--Grid column-->
+
+
+
+
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+            </div>
+
+            <!-- Grid container -->
         </div>
-        <!-- Grid container -->
 
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
