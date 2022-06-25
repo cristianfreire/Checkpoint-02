@@ -16,3 +16,13 @@ h2 {
 .redes_sociais {
   gap: 10px;
 }
+
+h5 {
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+ul {
+  margin-bottom: 0 !important;
+}
