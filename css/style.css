@@ -1,4 +1,4 @@
-.container.banner {
+.banner {
   height: 100vh;
   width: 100%;
   background-image: url("https://picsum.photos/1320/827");
@@ -25,4 +25,34 @@ h5 {
 
 ul {
   margin-bottom: 0 !important;
+}
+
+.profile-image {
+  height: 120px;
+}
+
+#card {
+  width: 100%;
+}
+
+.container-cards {
+  gap: 15px;
+}
+
+
+@media (min-width: 992px) {
+  #footer-div {
+    flex-direction: row !important;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #navbarNav {
+    justify-content: center;
+  }
+
+  #navbarNav ul {
+    gap: 50px
+  }
+
 }
