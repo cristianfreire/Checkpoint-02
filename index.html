@@ -17,7 +17,7 @@
 <body>
     <!-- Header -->
     <header>
-        <div class="container">
+        <div>
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
                     <img src="https://picsum.photos/50" alt="" />
@@ -31,14 +31,14 @@
                                 <a class="nav-link" aria-current="page" href="#">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#card">ITENS</a>
+                                <a class="nav-link" href="#cards">ITENS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal"
                                     href="#">LOGIN</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">SOBRE NÓS</a>
+                                <a class="nav-link" href="#footer">SOBRE NÓS</a>
                             </li>
                         </ul>
                     </div>
@@ -47,10 +47,10 @@
         </div>
     </header>
     <!-- Main -->
-    <main class="container">
+    <main>
         <!-- Banner -->
         <section id="banner">
-            <div class="container banner d-flex flex-column justify-content-center rounded ">
+            <div class="banner d-flex flex-column justify-content-center align-items-center">
                 <h1>TITULO</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, odit quos. Cumque perspiciatis
                     illo, reiciendis quam tempora ea dolorum. Ab quisquam explicabo rerum temporibus culpa velit, autem
@@ -60,11 +60,11 @@
             </div>
         </section>
         <!-- Cards -->
-        <section id="card">
-            <div class="container p-5">
+        <section id="cards">
+            <div class="p-5">
                 <h2 class="text-center">CARDS</h2>
                 <div class="row container-cards d-flex justify-content-center align-items-center">
-                    <div class="card p-0" style="width: 17rem;">
+                    <div class="card p-0">
                         <img src="https://picsum.photos/320" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -74,7 +74,7 @@
                             <a href="detalhes.html" class="btn btn-primary">Abrir</a>
                         </div>
                     </div>
-                    <div class="card p-0" style="width: 17rem;">
+                    <div class="card p-0">
                         <img src="https://picsum.photos/320" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -84,7 +84,7 @@
                             <a href="#" class="btn btn-primary">Abrir</a>
                         </div>
                     </div>
-                    <div class="card p-0" style="width: 17rem;">
+                    <div class="card p-0">
                         <img src="https://picsum.photos/320" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -94,7 +94,7 @@
                             <a href="#" class="btn btn-primary">Abrir</a>
                         </div>
                     </div>
-                    <div class="card p-0" style="width: 17rem;">
+                    <div class="card p-0">
                         <img src="https://picsum.photos/320" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -104,7 +104,7 @@
                             <a href="#" class="btn btn-primary">Abrir</a>
                         </div>
                     </div>
-                    <div class="card p-0" style="width: 17rem;">
+                    <div class="card p-0">
                         <img src="https://picsum.photos/320" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -114,7 +114,7 @@
                             <a href="#" class="btn btn-primary">Abrir</a>
                         </div>
                     </div>
-                    <div class="card p-0" style="width: 17rem;">
+                    <div class="card p-0">
                         <img src="https://picsum.photos/320" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -130,10 +130,9 @@
         </section>
     </main>
     <!-- Footer -->
-    <footer class="bg-dark text-center text-white ">
-        <div id="footer-div" class="d-flex flex-column">
-
-            <div class="p-3">
+    <footer id="footer" class="bg-dark text-center text-white">
+        <div id="footer-div" class="d-flex flex-column justify-content-around p-3">
+            <div class="p-4">
                 <img src="https://picsum.photos/120" class="rounded-circle" alt="" />
                 <h5 class="text-uppercase p-2">Cristian ...</h5>
                 <p>Fez ...</p>
@@ -146,7 +145,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="p-3">
+            <div class="p-4">
                 <img src="https://picsum.photos/120" class="rounded-circle" alt="" />
                 <h5 class="text-uppercase p-2">Daniel Reis</h5>
                 <p>Fez ...</p>
@@ -159,7 +158,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="p-3">
+            <div class="p-4">
                 <img src="./img/igor.jpeg" class="rounded-circle profile-image" alt="" />
                 <h5 class="text-uppercase p-2">Igor Cruz</h5>
                 <p>Fez ...</p>
