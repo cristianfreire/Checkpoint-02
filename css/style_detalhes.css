@@ -1,9 +1,13 @@
+main {
+  background-color: #eee;
+}
 .banner {
   height: 70vh;
   width: 100%;
-  background-image: url("https://picsum.photos/id/1042/1640/550");
+  background-image: url("../img/banner\ detalhes.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   color: white;
 }
 
