@@ -19,8 +19,9 @@
     <header>
         <div>
             <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                    <img src="https://picsum.photos/50" alt="" />
+                <div class="container-fluid ">
+                    <!--img src="https://picsum.photos/50" alt="" /-->
+                    <h1 class="d-flex align-items-center">CAOS</h1>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -50,14 +51,33 @@
     <main>
         <!-- Banner -->
         <section id="banner">
-            <div class="banner d-flex flex-column justify-content-center align-items-center">
+            <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+            <div class="overlay"></div>
+
+            <!-- The HTML5 video element that will create the background video on the header -->
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="./videos/universe.mp4" type="video/mp4">
+            </video>
+
+            <!-- The header content -->
+            <div class="container h-100">
+                <div class="d-flex h-100 text-center align-items-center">
+                    <div class="w-100 text-white">
+                        <h1 class="display-3">UMA VIAGEM PELO UNIVERSO</h1>
+                        <p class="lead mb-0">A maior aventura da sua vida!!!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--div class="banner d-flex flex-column justify-content-center align-items-center ">
                 <h1>TITULO</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, odit quos. Cumque perspiciatis
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio,
+                    odit quos. Cumque perspiciatis
                     illo, reiciendis quam tempora ea dolorum. Ab quisquam explicabo rerum temporibus culpa velit, autem
                     qui.
                     Enim, aliquid?</p>
                 <button type="button" class="btn btn-outline-secondary">Explorar</button>
-            </div>
+            </div-->
         </section>
         <!-- Cards -->
         <section id="cards">
@@ -75,7 +95,7 @@
                         </div>
                     </div>
                     <div class="card p-0">
-                        <img src="https://picsum.photos/320" class="card-img-top" alt="...">
+                        <img src="https://picsum.photos/321" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -85,7 +105,7 @@
                         </div>
                     </div>
                     <div class="card p-0">
-                        <img src="https://picsum.photos/320" class="card-img-top" alt="...">
+                        <img src="https://picsum.photos/322" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -95,7 +115,7 @@
                         </div>
                     </div>
                     <div class="card p-0">
-                        <img src="https://picsum.photos/320" class="card-img-top" alt="...">
+                        <img src="https://picsum.photos/323" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -105,7 +125,7 @@
                         </div>
                     </div>
                     <div class="card p-0">
-                        <img src="https://picsum.photos/320" class="card-img-top" alt="...">
+                        <img src="https://picsum.photos/324" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -115,7 +135,7 @@
                         </div>
                     </div>
                     <div class="card p-0">
-                        <img src="https://picsum.photos/320" class="card-img-top" alt="...">
+                        <img src="https://picsum.photos/325" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -133,20 +153,21 @@
     <footer id="footer" class="bg-dark text-center text-white">
         <div id="footer-div" class="d-flex flex-column justify-content-around p-3">
             <div class="p-4">
-                <img src="https://picsum.photos/120" class="rounded-circle" alt="" />
-                <h5 class="text-uppercase p-2">Cristian ...</h5>
+                <img src="./img/19690831.jfif" class="rounded-circle profile-image" alt="" />
+                <h5 class="text-uppercase p-2">Cristian passos</h5>
                 <p>Fez ...</p>
                 <ul class="list-unstyled d-flex justify-content-center redes_sociais ">
                     <li>
-                        <a href=""><img src="./img/linkedin.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/cristian-freire-195872186"><img src="./img/linkedin.svg"
+                                alt=""></a>
                     </li>
                     <li>
-                        <a href=""><img src="./img/github.svg" alt=""></a>
+                        <a href="https://github.com/cristianfreire"><img src="./img/github.svg" alt=""></a>
                     </li>
                 </ul>
             </div>
             <div class="p-4">
-                <img src="https://picsum.photos/120" class="rounded-circle" alt="" />
+                <img src="./img/daniel.jpg" class="rounded-circle profile-image" alt="" />
                 <h5 class="text-uppercase p-2">Daniel Reis</h5>
                 <p>Fez ...</p>
                 <ul class="list-unstyled d-flex justify-content-center redes_sociais ">
