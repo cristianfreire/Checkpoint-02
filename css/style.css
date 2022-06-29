@@ -1,20 +1,30 @@
-.banner {
-  height: 95vh;
-  width: 100vh;
-  color: white;
-}
-
 main {
   background-color: #eee;
 }
 
-.banner button {
-  width: 16rem;
+#navbarNav li:hover {
+  position: relative;
 }
 
-.banner p {
-  text-align: justify;
-  padding: 0 20px;
+#navbarNav li::before {
+  content: '';
+  background: black;
+  position: absolute;
+  bottom: 3px;
+  height: 3px;
+  width: 0px;
+  /*dica: width iniciando em 0 e aplicação de uma transição*/
+}
+
+#navbarNav li:hover::before {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.banner {
+  height: 95vh;
+  width: 100vh;
+  color: white;
 }
 
 h2 {
@@ -32,23 +42,38 @@ h1::first-letter {
   padding: 0;
 }
 
-.card {
+.container-cards .card {
+  /* width: 25rem; */
+  max-width: 350px;
+}
+
+.container-cards .card {
   box-shadow: 0px 0px 20px 0.5px #000000;
   border-radius: 15px !important;
 }
 
-.card-img-top {
+.container-cards .card:hover {
+  transform: scale(1.05);
+}
+
+.container-cards .card-img-top {
   border-top-left-radius: 15px !important;
   border-top-right-radius: 15px !important;
+  height: 220px;
+}
+
+.card-body {
+  height: 350px;
+}
+
+.card-text {
+  margin-top: 20px;
+  flex: 1;
+  text-align: justify;
 }
 
 .container-cards {
   gap: 40px;
-}
-
-.container-cards .card {
-  /* width: 25rem; */
-  max-width: 350px;
 }
 
 .redes_sociais {
@@ -134,8 +159,7 @@ ul {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black
-      no-repeat center center scroll;
+    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center center scroll;
   }
 
   header video {

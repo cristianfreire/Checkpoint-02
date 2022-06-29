@@ -1,9 +1,28 @@
 .banner {
   height: 60vh;
   width: 100%;
-  background-image: url("https://picsum.photos/1640/700");
+  background-image: url("https://picsum.photos/id/1042/1640/550");
   background-repeat: no-repeat;
   color: white;
+}
+
+#navbarNav li:hover {
+  position: relative;
+}
+
+#navbarNav li::before {
+  content: '';
+  background: black;
+  position: absolute;
+  bottom: 3px;
+  height: 3px;
+  width: 0px;
+  /*dica: width iniciando em 0 e aplicação de uma transição*/
+}
+
+#navbarNav li:hover::before {
+  width: 100%;
+  transition: 0.3s;
 }
 
 #detalhes h2 {
@@ -15,18 +34,16 @@
 #detalhes p {
   text-align: justify;
 }
-/*
 
 #video {
-  position: relative;
-  overflow: hidden;
+  /* position: relative;
+  overflow: hidden; */
   width: 100%;  
-  padding-top: 56.25%; 
-}*/
+  padding: 5%; 
+}
 
-/* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-/*
-#video .embed-responsive-item {
+
+/* #video .embed-responsive-item {
   position: absolute;
   top: 0;
   left: 0;
@@ -34,10 +51,7 @@
   right: 0;
   width: 100%;
   height: 80%;
-}
-*/
-
-/* width="560" height="315" */
+} */
 
 .redes_sociais {
   gap: 10px;
