@@ -43,7 +43,7 @@ main {
 }
 
 h2 {
-  height: 50px;
+  height: 30px;
   font-size: 3rem !important;
   font-weight: bold !important;
 }
@@ -130,6 +130,7 @@ ul {
   #navbarNav ul {
     gap: 50px;
   }
+  
 }
 
 #banner {
